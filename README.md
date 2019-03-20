@@ -2,8 +2,8 @@
 -Christopher Mudrenko
 ## Project Description:
 -A large database of news information has been given by the Udacity team to create python file to interpret three different queries. This reporting tool is showing valuable information to keep relevant with top articles, authors and percentage of large cases of errors. 
-#Inorder to Run
-## Installing critical files
+## Inorder to Run
+#### Installing critical files
 1. Install [Vagrant](https://www.vagrantup.com/)
 1. Install [VirtualBox](https://www.virtualbox.org/)
 1. Download the vagrant setup files from [Udacity's Github](https://github.com/udacity/fullstack-nanodegree-vm)
