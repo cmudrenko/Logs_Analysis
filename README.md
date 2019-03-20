@@ -1,4 +1,4 @@
-#Log Analysis Project
+# Log Analysis Project
 -Christopher Mudrenko
 ## Project Description:
 -A large database of news information has been given by the Udacity team to create python file to interpret three different queries. This reporting tool is showing valuable information to keep relevant with top articles, authors and percentage of large cases of errors. 
