@@ -96,7 +96,9 @@ def getDaysWithErrors():
 
     index = 1
     for i in results:
-        print(str(index)+'. '+i[0].strftime('%B %d, %Y')+"--"+str(round(i[1], 1))+"%"+"errors\n")
+        print(
+            str(index)+'. '+i[0].strftime('%B %d, %Y')+"--" +
+            str(round(i[1], 1))+"%"+"errors\n")
         index += 1
 
 # This will capture the three generated queries
