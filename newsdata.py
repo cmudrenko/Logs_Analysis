@@ -17,10 +17,11 @@ def connectQuery(news_query):
             cursor.execute(news_query)
             rows = cursor.fetchall()
             newsdb.close()
-        return rows
+            return rows
         except Exception as e:
             print("Sorry there was an unexpected complication")
 
+        
 """This function provides the top 3 most read articles"""
 
 
@@ -46,6 +47,7 @@ def getTopArticle():
         print(str(index) + '. "' + i[0] + '" has ' + str(i[1]) + " views")
         index += 1
 
+        
 """This function provides the top 3 top authors per their popularity"""
 
 
@@ -72,6 +74,7 @@ def getTopAuthors():
         print(str(index) + '. ' + i[0] + ' has ' + str(i[1]) + " views")
         index += 1
 
+        
 """This function provides a list  of the days with more than 1% errors"""
 
 
@@ -101,10 +104,10 @@ def getDaysWithErrors():
             str(round(i[1], 1))+"%"+"errors\n")
         index += 1
 
+        
 # This will capture the three generated queries
 
 print('Analyzing News Database for views comparisons and error calculation...')
 getTopArticle()
 getTopAuthors()
 getDaysWithErrors()
-
